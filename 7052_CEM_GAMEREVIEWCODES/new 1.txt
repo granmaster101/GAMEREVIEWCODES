@@ -1,0 +1,16 @@
+flutter run --no-sound-null-safety
+  visibility_detector: ^0.3.3
+    flutter_widgets: ^0.1.12
+	flutter pub get
+	
+	
+	 getwidget: ^3.0.1
+	   widgets: ^1.4.5
+	     scrollable_positioned_list: ^0.3.5
+  linked_scroll_controller: ^0.2.0
+  searchable_dropdown:
+  search_choices: ^2.1.8
+  
+  
+  items=game
+  product Games
