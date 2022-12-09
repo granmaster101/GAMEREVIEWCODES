@@ -1,0 +1,56 @@
+class Games{
+  final String name;
+  final String description;
+  final int price;
+  final String image;
+  final String genre;
+
+  Games(this.name,this.description,this.price,this.image,this.genre);
+
+  static List<Games> getGames(){
+    List<Games> games = <Games>[];
+
+    games.add(
+      Games(
+        'Grand Theft Auto 5', 
+        'Grand Theft Auto V is a 2013 action-adventure game developed by Rockstar North and published by Rockstar Games. It is the seventh main entry in the Grand Theft Auto series, following 2008s Grand Theft Auto IV, and the fifteenth instalment overall. Set within the fictional state of San Andreas, based on Southern California, the single-player story follows three protagonists—retired bank robber Michael De Santa, street gangster Franklin Clinton, and drug dealer and gunrunner Trevor Philips—and their attempts to commit heists while under pressure from a corrupt government agency and powerful criminals. The open world design lets players freely roam San Andreas open countryside and the fictional city of Los Santos, based on Los Angeles.Wikimedia Foundation. (2022, November 20). Grand Theft Auto V. Wikipedia. Retrieved December 7, 2022, from https://en.wikipedia.org/wiki/Grand_Theft_Auto_V ',
+        20, 
+        'gta-5-button-2021-1639777058682.jpg', 
+        '"Action-Multiplayer-StoryMode'
+        )
+        );
+    games.add(Games(
+      'Call of Duty Modern Warefare 2', 
+      'Call of Duty®: Modern Warfare® II drops players into an unprecedented global conflict that features the return of the iconic Operators of Task Force 141.Call of duty®: Modern Warfare® II on steam. Welcome to Steam. (n.d.). Retrieved December 7, 2022, from https://store.steampowered.com/app/1938090/Call_of_Duty_Modern_Warfare_II/ ', 
+      60, 
+      'call-of-duty-modern-warfare-2-button-02-1653417394041.jpg',
+      'Action-Multiplayer-FPS'
+      )
+      );
+    games.add(Games(
+      'Assetto Corsa', 
+      'Assetto Corsa features an advanced DirectX 11 graphics engine that recreates an immersive environment, dynamic lighthing and realistic materials and surfaces. The advanced physics engine is being designed to provide a very realistic driving experience, including features and aspects of real cars, never seen on any other racing simulator such as tyre flat spots, heat cycles including graining and blistering, very advanced aerodynamic simulation. Assetto Corsa on steam. Assetto Corsa on Steam. (n.d.). Retrieved December 7, 2022, from https://store.steampowered.com/app/244210/Assetto_Corsa/ ',
+      15,
+      'Assetto_Corsa_cover.png',
+      'Racing-Simulation-Open world'
+     )
+     );
+    games.add(Games(
+    'Apex Legends',
+     'Apex Legends is the award-winning, free-to-play Hero Shooter from Respawn Entertainment. Master an ever-growing roster of legendary characters with powerful abilities, and experience strategic squad play and innovative gameplay in the next evolution of Hero Shooter and Battle Royale. Apex Legends™ on steam. Apex Legends™ on Steam. (n.d.). Retrieved December 7, 2022, from https://store.steampowered.com/app/1172470/Apex_Legends/ ',
+     0,
+     'apex-featured-image-16x9.jpg.adapt.crop16x9.1023w.jpg',
+     'Action-Multiplayer-FPS'
+    )
+    );
+    games.add(Games(
+      'Valorant',
+     'Valorant is a team-based first-person tactical hero shooter set in the near future.[3][4][5][6] Players play as one of a set of Agents, characters based on several countries and cultures around the world.[6] In the main game mode, players are assigned to either the attacking or defending team with each team having five players on it. Agents have unique abilities, each requiring charges, as well as a unique ultimate ability that requires charging through kills, deaths, orbs, or objectives. Every player starts each round with a classic pistol and one or more signature ability charges. Wikimedia Foundation. (2022, December 5). Valorant. Wikipedia. Retrieved December 7, 2022, from https://en.wikipedia.org/wiki/Valorant',
+      0,
+       'VALORANT_2022_E5-3_PlayVALORANT_ContentStackThumbnail_1200x625_MB01_opt.jpg',
+        'Action-Multiplayer-FPS'
+        )
+        );
+  return games;
+  }
+}
